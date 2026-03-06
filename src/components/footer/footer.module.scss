@@ -1,0 +1,49 @@
+.footer {
+  background-color: #111;
+  color: white;
+  padding: 3rem 6rem;
+
+  span {
+    display: block;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 2rem;
+
+  h4 {
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    color: #ccc;
+    margin-bottom: 0.3rem;
+  }
+}
+
+.boxLogo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  max-width: 220px;
+}
+
+.logoTitle {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+
+  img {
+    width: 28px;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+}
